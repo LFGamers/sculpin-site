@@ -7,5 +7,5 @@
 sculpin generate --env=prod
 if [ $? -ne 0 ]; then echo "Could not generate the site"; exit 1; fi
 
-scp -r output_prod root@lfgame.rs:/var/www/www.lfgame.rs/
+scp -r output_prod/* root@lfgame.rs:/var/www/www.lfgame.rs/
 if [ $? -ne 0 ]; then echo "Could not publish the site"; exit 1; fi
