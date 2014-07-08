@@ -1,0 +1,20 @@
+{
+    "name":        "lfgamers/sculpin-site",
+    "description": "Sculpin site for LFGamers",
+    "type":        "sculpin-skeleton",
+    "license":     "MIT",
+    "authors":     [
+        {
+            "name":  "Aaron Scherer",
+            "email": "aaron@lfgame.rs"
+        }
+    ],
+    "require":     {
+        "components/bootstrap":    "~3.0",
+        "components/jquery":       "~2.0",
+        "components/font-awesome": "~4.1"
+    },
+    "config":      {
+        "component-dir": "source/components"
+    }
+}
